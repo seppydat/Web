@@ -1,0 +1,162 @@
+body{
+	font-family: sans-serif;
+}
+#main{
+	margin-top: -10px;
+	margin-right: -10px;
+	margin-left: -10px;
+	width: 100%;
+}
+#header{
+	width: 100%;
+}
+#header_top{
+	padding-right: 20px;
+	width: 100%;
+	height: 34px;
+	background-color: #333333;
+}
+#search{
+	padding-top: 5px;
+}
+#look_for{
+	width: 180px;
+    margin-right: 2px;
+    color: #aaa;
+    background: #4a4a4a;
+    height: 23px;
+    border: 0;
+    padding-left: 10px;
+}
+#button_look_for{
+	padding-top: 6px;
+	display: block;
+	float: right;
+}
+#button_look_for img{
+	width: 23px;
+	height: 23px;
+}
+#button_look_for img:active{
+	width: 25px;
+	height: 25px;
+}
+#header_icon{
+	width: 100%;
+	height: 84px;
+	background-color: #FFFFFF;
+}
+#header_icon p{
+	font-size: 40px;
+	color: orange;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+	display: block;
+	width: 400px;
+	float: left;
+}
+#header_icon img{
+	float: right;
+	margin-top: 35px;
+	margin-right: 200px;
+}
+
+#header_menu{
+	background-color: #C90E2D;
+	width: 100%;
+	height: 35px;
+}
+#header_menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#header_menu ul li{
+	background-color: #C90E2D;
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	width: 120px;
+  	height: 35px;
+  	line-height: 35px;
+  	margin-left: -5px;
+  	position: relative;
+}
+#header_menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+}
+#header_menu a:active{
+	font-size: 16px;
+}
+#header_menu a:hover{
+	background-color: white;
+	color: orange;
+}
+.sub_menu{
+	display: none;
+	position: absolute;
+}
+#header_menu ul li:hover .sub_menu{
+	display: block;
+}
+#banner{
+	width: 940px;
+	height: 200px;
+	background-image: url(img/home-banner.jpg);
+	margin: auto;
+}
+#content p{
+	font-size: 18px;
+	padding-left: 10px;
+}
+#content_main{
+	margin: auto;
+	width: 940px;
+	height: 1700px;
+}
+.content_main_products{
+	width: 230px;
+	height: 240px;
+	float: left;
+}
+.content_main_products_img{
+	text-align: center;
+}
+.content_main_products_name{
+	height: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+.content_main_products_price{
+	text-align: center;
+	font-weight: bold;
+}
+.content_main_products_more{
+	font-size: 14px;
+	text-align: center;
+}
+.content_main_products_more a{
+	color: #6d6e6a;
+}
+#bottom{
+	margin-bottom: 0px; 
+	height: 300px;
+	width: 100%;
+	background-color: #282923;
+}
+#bottom_end{
+	text-align: center;
+	color: #999999;
+}
+#bottom_end a{
+	text-decoration: none;
+	color: #999999;
+}
+#bottom_end a:hover{
+	color: white;
+	text-decoration: underline;
+}
